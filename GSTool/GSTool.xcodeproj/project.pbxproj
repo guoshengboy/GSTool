@@ -144,11 +144,19 @@
 		8B602C4E24D3B4BE005FED9E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8B602C4F24D3B4BE005FED9E /* UIViewAdditions.h */,
-				8B602C5024D3B4BE005FED9E /* UIViewAdditions.m */,
+				8B602C9524D3B6CF005FED9E /* Category */,
 			);
 			name = Classes;
 			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		8B602C9524D3B6CF005FED9E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8B602C4F24D3B4BE005FED9E /* UIViewAdditions.h */,
+				8B602C5024D3B4BE005FED9E /* UIViewAdditions.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
