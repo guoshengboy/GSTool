@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
     工具库初始化
                    DESC
 
-  spec.homepage     = "https://github.com/guoshengboy/GSTool.git"
+  spec.homepage     = "https://github.com/guoshengboy"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes"
+  spec.source_files  = "Classes/Category/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
